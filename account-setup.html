@@ -5,102 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>account-setup</title>
+    <title>Account Setup</title>
+    <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/account-setup.css">
 </head>
 
 <body>
     <div class="header">
         <div class="logo">
-            <img class="locart" src="images/.logo1">
+            <img src="./images/logo.png" alt="">
         </div>
-        <p>Electric Car Service Station</p>
+        Electric Car Service Station
     </div>
     <div class="container">
-        <div class="top">
+        <div class="model">
             <h3>Choose the Model</h3>
-            <div class="images">
-                <img class="model-y" width="100px" src="https://www.cstatic-images.com/car-pictures/main/USC60TSS011C021001.png">
-                <img class="model3" width="100px" src="https://www.cstatic-images.com/car-pictures/main/USC60TSS011C021001.png">
-                <img class="model-s" width="100px" src="https://www.cstatic-images.com/car-pictures/main/USC60TSS011C021001.png">
-                <img class="model-x" width="100px" src="https://www.cstatic-images.com/car-pictures/main/USC60TSS011C021001.png">
-            </div>
-            <div class="model-name">
-                <div class="m1">
-                    <p><b>Model y</b></p>
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/tesla-car-steve-fribek.jpg" alt=""> Model X
                 </div>
-                <div class="m2">
-                    <p><b>Model 3</b></p>
+                <div class="col-4">
+                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/tesla-car-steve-fribek.jpg" alt=""> Model Y
                 </div>
-                <div class="m3">
-                    <p><b>Model s</b></p>
+                <div class="col-4">
+                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/tesla-car-steve-fribek.jpg" alt=""> Model S
                 </div>
-                <div class="m4">
-                    <p><b>Model x</b></p>
+                <div class="col-4">
+                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/tesla-car-steve-fribek.jpg" alt=""> Model 3
                 </div>
-
             </div>
         </div>
-        <div class="mid">
-            <h3>Color</h3>
-            <div class="circle">
-                <div class="c1">
-                    <span></span>
-                </div>
-                <div class="c2">
-                    <span></span>
-                </div>
-                <div class="c3">
-                    <span></span>
-                </div>
-                <div class="c4">
-                    <span></span>
-                </div>
-                <div class="c5">
-                    <span></span>
-                </div>
-                <div class="c6">
-                    <span></span>
-                </div>
-                <div class="c7">
-                    <span></span>
-                </div>
-                <div class="c8">
-                    <span></span>
-                </div>
-                <div class="c9">
-                    <span></span>
-                </div>
-
+        <div class="colors">
+            <h3>Colors</h3>
+            <div class="row">
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
             </div>
+
         </div>
-        <div class="bot">
+        <div class="details">
             <h3>Details</h3>
             <div class="inputs">
-                <div class="A">
-                    <p>Owner Name</p>
-                    <input class="in1" type="text">
-                </div>
-                <div class="B">
-                    <p>Vehicle Number</p>
-                    <input class="in2" type="text">
-                </div>
-                <div class="C">
-                    <p>Mobile Number</p>
-                    <input class="in3" type="text">
-                </div>
-                <div class="D">
-                    <p>Alternate Mobile Number</p>
-                    <input class="in4" type="text">
-                </div>
-
+                <label for="owner_name">Owner Name</label>
+                <input type="text" id="owner_name" placeholder="" />
+            </div>
+            <div class="inputs">
+                <span for="">Vehicle Number</span>
+                <input type="text" placeholder="" />
+            </div>
+            <div class="inputs">
+                <span for="">Mobile Number</span>
+                <input type="number" name="mobile_number" placeholder="" />
+            </div>
+            <div class="inputs">
+                <span for="">Alternate Mobile Number</span>
+                <input type="number" name="alternate_mobile_number" placeholder="" />
             </div>
         </div>
-        <div class="btn">
-            <button>Save</button>
+        <div class="footer">
+            <button class="btn-locart">Save</button>
         </div>
     </div>
-
 </body>
 
 </html>

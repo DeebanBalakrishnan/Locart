@@ -1,137 +1,85 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #fbfbfb;
+}
+.header {
+  background: #055de5;
+  text-align: center;
+  height: 55px;
+  color: #fff;
+  line-height: 55px;
+}
+.header .logo img {
+  height: 45px;
+  position: absolute;
+  left: 45px;
+  top: 5px;
+}
+
+.container {
+  width: 60%;
+  margin: 40px auto;
+  background: #fff;
+  border: 1px solid #33ffff;
+  padding: 12px;
+  border-radius: 6px;
+}
+.model{
+    margin: 12px 0;
+    padding-bottom: 8em;
+}
+.row .col-4 {
+  width: 21%;
+  float: left;
+  border: 1px solid #dedede;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 15px;
+  overflow: hidden;
+}
+.row .col-4 img {
+  width: 100%;
+}
+
+.row .col-4:hover{
+    background:#33ffff5d;
+}
+
+.color{
+    width: 30px;
+    height: 30px;
+    background: rgb(114, 114, 114);
+    display: block;
+    float: left;
+    margin-right: 12px;
+    border-radius: 50%;
     
-    .header {
-        background-color: blue;
-        height: 50px;
-        border-bottom: 1px solid black;
-    }
+}
+
+.details{
+    padding-top: 40px;
+}
+
+.inputs label, .inputs span {
+    display: block;
+}
+.inputs input{
+    height:25px;
+    background:#dedede;
+    border:1px solid #dedede;
+    outline: none;
+    border-radius: 3px;
+    margin: 5px 0;
+    width: 200px
+}
+
+.footer{
+    text-align: right;
     
-    .logo .locart {
-        width: 80px;
-        margin-top: 15px;
-        margin-left: 5px;
-    }
-    
-    .header p {
-        text-align: center;
-        margin-top: -16px;
-        color: white;
-    }
-    
-    .container {
-        width: 55%;
-        height: 100vh;
-        margin: 10px auto;
-        padding: 10px 35px;
-        border: 2px solid cyan;
-    }
-    
-    .top {
-        height: 30vh;
-    }
-    
-    .images {
-        padding-left: 25px;
-        margin-top: 5px;
-    }
-    
-    .model-y {
-        width: 120px;
-        margin-left: 25px
-    }
-    
-    .model3 {
-        width: 120px;
-        margin-left: 20px;
-    }
-    
-    .model-s {
-        width: 120px;
-        margin-left: 20px;
-    }
-    
-    .model-x {
-        width: 120px;
-        margin-left: 20px;
-    }
-    
-    .m1 {
-        margin-left: 75px;
-        float: left;
-    }
-    
-    .m2 {
-        float: left;
-        margin-left: 95px;
-    }
-    
-    .m3 {
-        float: left;
-        margin-left: 90px;
-    }
-    
-    .m4 {
-        float: left;
-        margin-left: 90px;
-    }
-    
-    .mid {
-        height: 20vh;
-    }
-    
-    .bot {
-        height: 40vh;
-    }
-    
-    .A {
-        margin-top: 2px;
-    }
-    
-    .A .in1 {
-        background-color: rgb(241, 236, 236);
-        border: none;
-        outline: none;
-    }
-    
-    .B .in2 {
-        background-color: rgb(241, 236, 236);
-        border: none;
-        outline: none;
-    }
-    
-    .B {
-        margin-top: 20px;
-    }
-    
-    .C .in3 {
-        background-color: rgb(241, 236, 236);
-        border: none;
-        outline: none;
-    }
-    
-    .C {
-        margin-top: 20px;
-    }
-    
-    .D .in4 {
-        background-color: rgb(241, 236, 236);
-        border: none;
-        outline: none;
-    }
-    
-    .D {
-        margin-top: 20px;
-    }
-    
-    .btn {
-        background-color: darkgoldenrod;
-        height: 7vh;
-    }
-    
-    .btn .button {
-        width
-    }
+}
