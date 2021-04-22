@@ -1,11 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #fbfbfb;
 }
 .header {
@@ -21,18 +14,17 @@ body {
   left: 45px;
   top: 5px;
 }
-
 .container {
   width: 60%;
   margin: 40px auto;
   background: #fff;
-  border: 1px solid #33ffff;
+  border: 1px solid #3ff;
   padding: 12px;
   border-radius: 6px;
 }
-.model{
-    margin: 12px 0;
-    padding-bottom: 8em;
+.model {
+  margin: 12px 0;
+  padding-bottom: 8em;
 }
 .row .col-4 {
   width: 21%;
@@ -46,40 +38,34 @@ body {
 .row .col-4 img {
   width: 100%;
 }
-
-.row .col-4:hover{
-    background:#33ffff5d;
+.row .col-4:hover {
+  background: #33ffff5d;
 }
-
-.color{
-    width: 30px;
-    height: 30px;
-    background: rgb(114, 114, 114);
-    display: block;
-    float: left;
-    margin-right: 12px;
-    border-radius: 50%;
-    
+.color {
+  width: 30px;
+  height: 30px;
+  background: #727272;
+  display: block;
+  float: left;
+  margin-right: 12px;
+  border-radius: 50%;
 }
-
-.details{
-    padding-top: 40px;
+.details {
+  padding-top: 40px;
 }
-
-.inputs label, .inputs span {
-    display: block;
+.inputs label,
+.inputs span {
+  display: block;
 }
-.inputs input{
-    height:25px;
-    background:#dedede;
-    border:1px solid #dedede;
-    outline: none;
-    border-radius: 3px;
-    margin: 5px 0;
-    width: 200px
+.inputs input {
+  height: 25px;
+  background: #dedede;
+  border: 1px solid #dedede;
+  outline: 0;
+  border-radius: 3px;
+  margin: 5px 0;
+  width: 200px;
 }
-
-.footer{
-    text-align: right;
-    
+.footer {
+  text-align: right;
 }
