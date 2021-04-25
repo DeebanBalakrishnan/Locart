@@ -16,9 +16,9 @@
             <img src="images/logo.png" />
         </a>
         <p>Login to your Locart Account</p>
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-        <input type="button" class="btn" value="Login" />
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <input type="button" onclick="validate()" class="btn" value="Login" />
         <p class="forgot-password">
             <a href="./forgot-password.html">Forgot Password?</a>
         </p>
@@ -37,6 +37,26 @@
     <div class="copy-right">
         <p>&copy; 2021 - Locart</p>
     </div>
+    <script>
+        function validate() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById("password").value;
+
+            if (username == "") {
+                alert("Please fill the Username")
+            } else if (password == "") {
+                alert("Please fill the Password")
+            } else {
+                // redirect to home page
+                document.location.href = "/";
+
+            }
+
+        }
+    </script>
+
+
+
 </body>
 
 
