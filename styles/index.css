@@ -1,0 +1,60 @@
+                                                body {
+                                                    height: 100vh;
+                                                    width: 100vw;
+                                                    overflow: hidden;
+                                                    position: relative;
+                                                }
+                                                
+                                                .container {
+                                                    width: 40%;
+                                                    margin-left: 5%;
+                                                    margin-top: 5%;
+                                                }
+                                                
+                                                .container .logo img {
+                                                    width: 30%;
+                                                }
+                                                
+                                                .container h3 {
+                                                    margin-top: 7%;
+                                                    font-size: 40px;
+                                                }
+                                                
+                                                .container p {
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                .btn {
+                                                    height: 32.5px;
+                                                    width: 180px;
+                                                    background: #0a83df;
+                                                    border: none;
+                                                    color: #fff;
+                                                    cursor: pointer;
+                                                    transition: all 1s cubic-bezier(.25, .8, .25, 1);
+                                                    border-radius: 5px;
+                                                    margin-left: 10px;
+                                                    margin-top: 30px;
+                                                }
+                                                
+                                                .footer {
+                                                    width: 45%;
+                                                    height: 110px;
+                                                    background-color: chartreuse;
+                                                    position: relative;
+                                                    margin-top: 10%;
+                                                    margin-left: 18%;
+                                                    background: rgba(255, 255, 255, 0.4);
+                                                    backdrop-filter: blur(24px);
+                                                    border-radius: 40px;
+                                                }
+                                                
+                                                .row .col-4 {
+                                                    float: left;
+                                                    width: 10%;
+                                                    padding: 12px 45px;
+                                                }
+                                                
+                                                .row .col-4:hover {
+                                                    background: #33ffff5d;
+                                                }
