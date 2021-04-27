@@ -4,7 +4,89 @@ body {
     overflow: hidden;
     position: relative;
 }
+.container{
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding:12px;
+}
+.container .logo{
+    margin-bottom:40px;
+}
+.container .logo img{
+    width: 100px;
+}
+.btn-locart{
+    margin: 20px 0;
+    padding: 12px 20px;
+}
 
+.container h1{
+    margin: 10px 0;
+}
+
+.footer {
+    width: 45%;
+    height: 110px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(24px);
+    --web-kit-backdrop-filter: blur(24px);
+    border-radius: 20px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.row{
+    box-sizing: border-box;
+}
+
+.row .col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+    height: 95px;
+    padding-top: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.row .col-4:hover {
+    background: #33ffff5d;
+}
+.row .col-4 img{
+    height: 50px;
+
+}
+.row .col-4:hover img {
+    transform: scale(1.2)
+}
+.vector {
+    bottom: -50px;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    width: 55%;
+
+
+}
+
+.rkt {
+    bottom: 170px;
+    right: 0;
+    position: absolute;
+    width: 400px;
+    right: 80px;
+} 
+.box {
+    bottom: 50px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* 
 .container {
     width: 40%;
     margin-left: 5%;
@@ -76,13 +158,7 @@ img.box {
     z-index: -1;
 }
 
-.vector {
-    bottom: -50px;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    width: 55%;
-}
+
 
 .col-4 .pen {
     height: 50px;
@@ -94,4 +170,4 @@ img.box {
     position: absolute;
     width: 400px;
     right: 80px;
-}
+} */
